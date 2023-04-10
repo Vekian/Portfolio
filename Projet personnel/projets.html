@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Accueil - Mathieu Gérard développeur</title>
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header> 
+            <h1>Mathieu Gérard, développeur web</h1>
+            <nav>
+                <a href="index.html">Accueil |</a>
+                <a href="cv.html">CV |</a>
+                <a href="projets.html">Projets |</a>
+            </nav>
+        </header>
+        <article>
+            <div class="box">
+                <h2>Un convertisseur de chiffres romains !</h2>
+                <p>
+                    <label for="chiffre">Ecrivez un chiffre inférieur à 3999 :</label>
+                </p>
+                <p>
+                    <input type="number" name="chiffre" id="number" placeholder="Ex. : 1990" size="30" maxlength="20">
+                    <input type="submit" value="Envoyer" id="submit1">
+                </p>
+                <div id="result1">Votre résultat :  </div>
+            </div> 
+            <div class="box">
+                <h2>Un compteur de voyelles !</h2>
+                <p>
+                    <label for="phrase">Ecrivez une phrase :</label>
+                </p>
+                <p>
+                    <input type="text" name="phrase" id="string" placeholder="Ex. : J'aime les brocolis" size="40" maxlength="100">
+                    <input type="submit" value="Envoyer" id="submit2">
+                </p>
+                <div id="result2"></div>
+            </div>
+            <div class="box">
+                <h2>Un compteur de la somme de multiples de 3 ou 5</h2>
+                <p>
+                    <label for="multiple">Ecrivez un chiffre :</label>
+                </p>
+                <p>
+                    <input type="number" name="multiple" id="multiple" placeholder="Ex. : 5986" size="30" maxlength="20">
+                    <input type="submit" value="Envoyer" id="submit3">
+                </p>
+                <div id="result3">Votre résultat : </div>
+            </div>
+            <div class="box">
+                <h2>Votre nombre est-il entier ?</h2>
+                <p>
+                    <label for="primeNumber">Ecrivez un chiffre :</label>
+                </p>
+                <p>
+                    <input type="number" name="primeNumber" id="primeNumber" placeholder="Ex. : 5986" size="30" maxlength="20">
+                    <input type="submit" value="Envoyer" id="submit4">
+                </p>
+                <div id="result4">Votre résultat : </div>
+            </div>
+            <div class="box">
+                <h2>Déformez votre phrase.</h2>
+                <p>
+                    <label for="weirdString">Ecrivez une phrase :</label>
+                </p>
+                <p>
+                    <input type="text" name="weirdString" id="weirdString" placeholder="Ex. : J'aime pas les brocolis" size="40" maxlength="100">
+                    <input type="submit" value="Envoyer" id="submit5">
+                </p>
+                <div id="result5"></div>
+            </div>
+            <div class="box">
+                <h2>Est-ce que cela peut être un triangle ?</h2>
+                <p>
+                    <label for="triangle">Ecrivez la longueur de chaque côté :</label>
+                </p>
+                <p>
+                    <input type="number" name="triangle" id="triangleA" placeholder="Ex. : 5" size="10" maxlength="10">
+                    <input type="number" name="triangle" id="triangleB" placeholder="Ex. : 3" size="10" maxlength="10">
+                    <input type="number" name="triangle" id="triangleC" placeholder="Ex. : 8" size="10" maxlength="10">
+                    <input type="submit" value="Envoyer" id="submit6">
+                </p>
+                <div id="result6">Votre résultat : </div>
+            </div>
+            <script src="javascript/projets.js"></script>
+        </article>
+
+
+        <footer>
+            <ul>
+                <li>
+                  <a class="github" href="https://github.com/Vekian" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="linkedin" href="https://www.linkedin.com/in/mathieu-g%C3%A9rard-65660825b/" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                    <a class="twitter" href="https://twitter.com/GrardMathieu8" target="_blank">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                <li>
+                    <a class="mail" href="mailto:mathieu2991@gmail.com">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </li>
+              </ul>
+        </footer> 
+    </body>
+    </html>
